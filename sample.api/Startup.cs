@@ -67,7 +67,7 @@ namespace sample.api
 
             app.UseEndpoints(endpoints =>
             {
-                endpoints.MapRazorPages();
+                endpoints.MapControllers();
             });
             app.UseSwagger();
             app.UseSwaggerUI(c =>
